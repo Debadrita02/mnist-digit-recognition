@@ -19,8 +19,8 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "best_mnist_model.pkl"
-SAMPLE_DIR = BASE_DIR 
+MODEL_PATH = BASE_DIR / "best_mnist_model.pkl.gz"
+SAMPLE_DIR = BASE_DIR / "sample_images"
 
 
 # =====================================================
